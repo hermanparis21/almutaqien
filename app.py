@@ -7,13 +7,13 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Mutaqien Care", page_icon="🕌", layout="wide")
 
 # Gaya CSS Custom agar lebih cantik di HP
+# Gaya CSS Custom agar lebih cantik di HP
 st.markdown("""
     <style>
     .main { background-color: #f5f7f9; }
     .stMetric { background-color: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
     </style>
-    """, unsafe_allow_index=True)
-
+    """, unsafe_allow_html=True)  # <-- PASTIKAN INI ADALAH 'unsafe_allow_html'
 # Judul Utama
 st.title("🕌 Mutaqien Care")
 st.subheader("Pembangunan TPQ Al Mutaqien Sidakangen")
