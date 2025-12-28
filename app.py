@@ -20,7 +20,8 @@ st.subheader("Pembangunan TPQ Al Mutaqien Sidakangen")
 
 # --- KONEKSI GOOGLE SHEETS ---
 # Masukkan URL Google Sheets Anda di sini
-URL_SHEETS = "https://docs.google.com/spreadsheets/d/1Sl8mx5MhmunKnm_wEP3Wr8f4ddVFzcjtJY8s_UmgcI0/edit?usp=sharing"
+URL_SHEETS = "[connections.gsheets]
+spreadsheet = "https://docs.google.com/spreadsheets/d/1Sl8mx5MhmunKnm_wEP3Wr8f4ddVFzcjtJY8s_UmgcI0""
 
 try:
     conn = st.connection("gsheets", type=GSheetsConnection)
