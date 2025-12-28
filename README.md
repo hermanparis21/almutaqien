@@ -37,7 +37,7 @@ Aplikasi mobile-responsive sederhana yang dirancang untuk transparansi dana pemb
 Jika ingin menjalankan di komputer sendiri:
 ```bash
 # Clone repository ini
-git clone [https://github.com/username/tpq-mutaqien.git](https://github.com/username/tpq-mutaqien.git)
+git clone (https://github.com/hermanparis21/almutaqien)
 
 # Masuk ke direktori
 cd tpq-mutaqien
