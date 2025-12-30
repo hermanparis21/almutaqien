@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Muttaqien Care", page_icon="🕌")
 
 st.title("🕌 Muttaqien Care")
-st.write("Pembangunan TPQ Al Muttaqien")
+st.write("Pembangunan TPQ Al Muttaqien - Sidakangen")
 
 # --- KONEKSI JALUR TOL (Gunakan link CSV) ---
 # Link ini otomatis mengkonversi Google Sheet Anda jadi data yang siap dibaca
