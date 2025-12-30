@@ -3,10 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Konfigurasi Halaman
-st.set_page_config(page_title="Mutaqien Care", page_icon="🕌")
+st.set_page_config(page_title="Muttaqien Care", page_icon="🕌")
 
-st.title("🕌 Mutaqien Care")
-st.write("Pembangunan TPQ Al Mutaqien")
+st.title("🕌 Muttaqien Care")
+st.write("Pembangunan TPQ Al Muttaqien")
 
 # --- KONEKSI JALUR TOL (Gunakan link CSV) ---
 # Link ini otomatis mengkonversi Google Sheet Anda jadi data yang siap dibaca
@@ -56,4 +56,4 @@ except Exception as e:
     st.error(f"Waduh, ada masalah: {e}")
     st.info("Pastikan nama kolom di Google Sheets adalah: Nama, RT, Nominal, Tanggal")
 
-st.caption("Dikelola oleh Pengurus TPQ Al Mutaqien | Kinara Putri Gemini")
+st.caption("Dikelola oleh Pengurus TPQ Al Muttaqien | Dikembangkan oleh GesitNet")
